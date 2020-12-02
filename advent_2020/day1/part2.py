@@ -15,5 +15,5 @@ def oh_N():
 
 
 if __name__ == "__main__":
-    # Right And proper solution
+    # I didn't realize there was a part two to these problems untill after spending 4 hours on the stupid solution
     oh_N()
