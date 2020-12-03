@@ -2,12 +2,11 @@ from getexpenses import get_expenses
 
 def oh_of_N():
     array_of_expenses = get_expenses()
-    flag = True
     TARGET = 2020
     foward = 0
     reverse = len(array_of_expenses)-1
 
-    while(flag):
+    while(True):
         A = array_of_expenses[foward]
         B = array_of_expenses[reverse]
         SUM = A + B
@@ -22,3 +21,4 @@ def oh_of_N():
 if __name__ == "__main__":
     # Right And proper solution
     oh_of_N()
+
